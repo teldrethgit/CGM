@@ -44,13 +44,13 @@ https://github.com/sno/unity-webgl-responsive
     <script src="MyLoader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/WebGL.data.gz",
-        frameworkUrl: "Build/WebGL.framework.js.gz",
-        codeUrl: "Build/WebGL.wasm.gz",
+        dataUrl: "Build/cardgamebuilds.data.unityweb",
+        frameworkUrl: "Build/cardgamebuilds.framework.js.unityweb",
+        codeUrl: "Build/cardgamebuilds.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Card Game Maker",
-        productVersion: "0.0.78",
+        productVersion: "1.0",
       }).then((unityInstance) => {
         myGameInstance = unityInstance;
       });
